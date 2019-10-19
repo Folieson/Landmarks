@@ -34,6 +34,7 @@
 		B93A56EE235B321C0000C7A7 /* hiddenlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B93A56E2235B321C0000C7A7 /* hiddenlake.jpg */; };
 		B93A56EF235B321C0000C7A7 /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B93A56E3235B321C0000C7A7 /* umbagog.jpg */; };
 		B93A56F1235B34680000C7A7 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A56F0235B34680000C7A7 /* LandmarkList.swift */; };
+		B9BA4DE5235B617E007D4335 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9BA4DE4235B617E007D4335 /* charleyrivers.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		B93A56E2235B321C0000C7A7 /* hiddenlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hiddenlake.jpg; sourceTree = "<group>"; };
 		B93A56E3235B321C0000C7A7 /* umbagog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = umbagog.jpg; sourceTree = "<group>"; };
 		B93A56F0235B34680000C7A7 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		B9BA4DE4235B617E007D4335 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 		B93A56D0235B29D20000C7A7 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
+				B9BA4DE4235B617E007D4335 /* charleyrivers.jpg */,
 				B93A56DE235B321B0000C7A7 /* chilkoottrail.jpg */,
 				B93A56D9235B321A0000C7A7 /* chincoteague.jpg */,
 				B93A56E2235B321C0000C7A7 /* hiddenlake.jpg */,
@@ -336,6 +339,7 @@
 				B93A56E7235B321C0000C7A7 /* twinlake.jpg in Resources */,
 				B93A56E4235B321C0000C7A7 /* lakemcdonald.jpg in Resources */,
 				B93A56D2235B2A620000C7A7 /* landmarkData.json in Resources */,
+				B9BA4DE5235B617E007D4335 /* charleyrivers.jpg in Resources */,
 				B93A56A3235B0CA40000C7A7 /* Preview Assets.xcassets in Resources */,
 				B93A56EA235B321C0000C7A7 /* chilkoottrail.jpg in Resources */,
 				B93A56A0235B0CA40000C7A7 /* Assets.xcassets in Resources */,
