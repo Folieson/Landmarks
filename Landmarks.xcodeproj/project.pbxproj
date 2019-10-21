@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9121CDA235E0B9600F1ED13 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9121CD9235E0B9600F1ED13 /* Badge.swift */; };
 		B93A569A235B0C9F0000C7A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A5699235B0C9F0000C7A7 /* AppDelegate.swift */; };
 		B93A569C235B0C9F0000C7A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A569B235B0C9F0000C7A7 /* SceneDelegate.swift */; };
 		B93A569E235B0C9F0000C7A7 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A569D235B0C9F0000C7A7 /* LandmarkDetail.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B9121CD9235E0B9600F1ED13 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		B93A5696235B0C9F0000C7A7 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93A5699235B0C9F0000C7A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B93A569B235B0C9F0000C7A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 			children = (
 				B93A56C9235B11680000C7A7 /* CircleImage.swift */,
 				B93A56CB235B134D0000C7A7 /* MapView.swift */,
+				B9121CD9235E0B9600F1ED13 /* Badge.swift */,
 			);
 			path = SupportingViews;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 			files = (
 				B93A569A235B0C9F0000C7A7 /* AppDelegate.swift in Sources */,
 				B93A56CA235B11680000C7A7 /* CircleImage.swift in Sources */,
+				B9121CDA235E0B9600F1ED13 /* Badge.swift in Sources */,
 				B93A56CC235B134D0000C7A7 /* MapView.swift in Sources */,
 				B93A569C235B0C9F0000C7A7 /* SceneDelegate.swift in Sources */,
 				B93A56F1235B34680000C7A7 /* LandmarkList.swift in Sources */,
