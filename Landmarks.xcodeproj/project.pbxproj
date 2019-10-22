@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B9121CDA235E0B9600F1ED13 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9121CD9235E0B9600F1ED13 /* Badge.swift */; };
 		B9121CDC235E0D3100F1ED13 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9121CDB235E0D3100F1ED13 /* HexagonParameters.swift */; };
+		B9121CDE235E149300F1ED13 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9121CDD235E149300F1ED13 /* BadgeBackground.swift */; };
+		B9121CE1235F57E000F1ED13 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9121CE0235F57E000F1ED13 /* BadgeSymbol.swift */; };
 		B93A569A235B0C9F0000C7A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A5699235B0C9F0000C7A7 /* AppDelegate.swift */; };
 		B93A569C235B0C9F0000C7A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A569B235B0C9F0000C7A7 /* SceneDelegate.swift */; };
 		B93A569E235B0C9F0000C7A7 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A569D235B0C9F0000C7A7 /* LandmarkDetail.swift */; };
@@ -60,6 +62,8 @@
 /* Begin PBXFileReference section */
 		B9121CD9235E0B9600F1ED13 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		B9121CDB235E0D3100F1ED13 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		B9121CDD235E149300F1ED13 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		B9121CE0235F57E000F1ED13 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		B93A5696235B0C9F0000C7A7 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93A5699235B0C9F0000C7A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B93A569B235B0C9F0000C7A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +126,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9121CDF235E15B600F1ED13 /* Bage */ = {
+			isa = PBXGroup;
+			children = (
+				B9121CD9235E0B9600F1ED13 /* Badge.swift */,
+				B9121CDD235E149300F1ED13 /* BadgeBackground.swift */,
+				B9121CDB235E0D3100F1ED13 /* HexagonParameters.swift */,
+				B9121CE0235F57E000F1ED13 /* BadgeSymbol.swift */,
+			);
+			path = Bage;
+			sourceTree = "<group>";
+		};
 		B93A568D235B0C9F0000C7A7 = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +160,7 @@
 		B93A5698235B0C9F0000C7A7 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				B9121CDF235E15B600F1ED13 /* Bage */,
 				B93A56F2235B34820000C7A7 /* SupportingViews */,
 				B93A56D3235B2D1C0000C7A7 /* LandmarkViews */,
 				B93A56D0235B29D20000C7A7 /* Resourses */,
@@ -231,8 +247,6 @@
 			children = (
 				B93A56C9235B11680000C7A7 /* CircleImage.swift */,
 				B93A56CB235B134D0000C7A7 /* MapView.swift */,
-				B9121CD9235E0B9600F1ED13 /* Badge.swift */,
-				B9121CDB235E0D3100F1ED13 /* HexagonParameters.swift */,
 			);
 			path = SupportingViews;
 			sourceTree = "<group>";
@@ -389,7 +403,9 @@
 				B93A56CC235B134D0000C7A7 /* MapView.swift in Sources */,
 				B93A569C235B0C9F0000C7A7 /* SceneDelegate.swift in Sources */,
 				B93A56F1235B34680000C7A7 /* LandmarkList.swift in Sources */,
+				B9121CE1235F57E000F1ED13 /* BadgeSymbol.swift in Sources */,
 				B93A569E235B0C9F0000C7A7 /* LandmarkDetail.swift in Sources */,
+				B9121CDE235E149300F1ED13 /* BadgeBackground.swift in Sources */,
 				B93A56D5235B2D470000C7A7 /* LandmarkRow.swift in Sources */,
 				B93A56CF235B28BD0000C7A7 /* Landmark.swift in Sources */,
 				B9BA4DE7235B6B24007D4335 /* UserData.swift in Sources */,
