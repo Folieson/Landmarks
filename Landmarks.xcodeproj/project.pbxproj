@@ -12,6 +12,7 @@
 		B9121CDE235E149300F1ED13 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9121CDD235E149300F1ED13 /* BadgeBackground.swift */; };
 		B9121CE1235F57E000F1ED13 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9121CE0235F57E000F1ED13 /* BadgeSymbol.swift */; };
 		B9121CE3235F59BB00F1ED13 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9121CE2235F59BB00F1ED13 /* RotatedBadgeSymbol.swift */; };
+		B91AF2872360B99100534B44 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = B91AF2862360B99100534B44 /* hikeData.json */; };
 		B93A569A235B0C9F0000C7A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A5699235B0C9F0000C7A7 /* AppDelegate.swift */; };
 		B93A569C235B0C9F0000C7A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A569B235B0C9F0000C7A7 /* SceneDelegate.swift */; };
 		B93A569E235B0C9F0000C7A7 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A569D235B0C9F0000C7A7 /* LandmarkDetail.swift */; };
@@ -71,6 +72,7 @@
 		B9121CDD235E149300F1ED13 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		B9121CE0235F57E000F1ED13 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		B9121CE2235F59BB00F1ED13 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		B91AF2862360B99100534B44 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		B93A5696235B0C9F0000C7A7 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93A5699235B0C9F0000C7A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B93A569B235B0C9F0000C7A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 		B93A56D0235B29D20000C7A7 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
+				B91AF2862360B99100534B44 /* hikeData.json */,
 				B9BA4DE4235B617E007D4335 /* charleyrivers.jpg */,
 				B93A56DE235B321B0000C7A7 /* chilkoottrail.jpg */,
 				B93A56D9235B321A0000C7A7 /* chincoteague.jpg */,
@@ -385,6 +388,7 @@
 				B93A56EC235B321C0000C7A7 /* turtlerock.jpg in Resources */,
 				B93A56E5235B321C0000C7A7 /* chincoteague.jpg in Resources */,
 				B93A56A6235B0CA40000C7A7 /* LaunchScreen.storyboard in Resources */,
+				B91AF2872360B99100534B44 /* hikeData.json in Resources */,
 				B93A56E7235B321C0000C7A7 /* twinlake.jpg in Resources */,
 				B93A56E4235B321C0000C7A7 /* lakemcdonald.jpg in Resources */,
 				B93A56D2235B2A620000C7A7 /* landmarkData.json in Resources */,
