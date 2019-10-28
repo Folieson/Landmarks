@@ -51,6 +51,7 @@
 		B9619A7223672D0D00566520 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9619A7123672D0D00566520 /* Profile.swift */; };
 		B9619A7623672FC000566520 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9619A7523672FC000566520 /* ProfileSummary.swift */; };
 		B9619A782367307A00566520 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9619A772367307A00566520 /* HikeBadge.swift */; };
+		B9619A7A2367352400566520 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9619A792367352400566520 /* ProfileEditor.swift */; };
 		B9BA4DE5235B617E007D4335 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9BA4DE4235B617E007D4335 /* charleyrivers.jpg */; };
 		B9BA4DE7235B6B24007D4335 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BA4DE6235B6B24007D4335 /* UserData.swift */; };
 /* End PBXBuildFile section */
@@ -123,6 +124,7 @@
 		B9619A7123672D0D00566520 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		B9619A7523672FC000566520 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		B9619A772367307A00566520 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		B9619A792367352400566520 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		B9BA4DE4235B617E007D4335 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 		B9BA4DE6235B6B24007D4335 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -310,6 +312,7 @@
 			children = (
 				B9619A6F23672B4200566520 /* ProfileHost.swift */,
 				B9619A7523672FC000566520 /* ProfileSummary.swift */,
+				B9619A792367352400566520 /* ProfileEditor.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -486,6 +489,7 @@
 				B9619A7623672FC000566520 /* ProfileSummary.swift in Sources */,
 				B94E71502360B02200874878 /* HikeView.swift in Sources */,
 				B9BA4DE7235B6B24007D4335 /* UserData.swift in Sources */,
+				B9619A7A2367352400566520 /* ProfileEditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
