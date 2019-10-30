@@ -57,6 +57,7 @@
 		B9AFD8642367481300DBF875 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AFD8632367481300DBF875 /* FeatureCard.swift */; };
 		B9BA4DE5235B617E007D4335 /* charleyrivers_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9BA4DE4235B617E007D4335 /* charleyrivers_feature.jpg */; };
 		B9BA4DE7235B6B24007D4335 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BA4DE6235B6B24007D4335 /* UserData.swift */; };
+		B9F95BF92369ECC100181BC8 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F95BF82369ECC100181BC8 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +134,7 @@
 		B9AFD8632367481300DBF875 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		B9BA4DE4235B617E007D4335 /* charleyrivers_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers_feature.jpg; sourceTree = "<group>"; };
 		B9BA4DE6235B6B24007D4335 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		B9F95BF82369ECC100181BC8 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -330,6 +332,7 @@
 			children = (
 				B92EC6AC236744DE008C4774 /* PageViewController.swift */,
 				B92EC6AE236746AA008C4774 /* PageView.swift */,
+				B9F95BF82369ECC100181BC8 /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -507,6 +510,7 @@
 				B94E714F2360B02200874878 /* HikeDetail.swift in Sources */,
 				B93A56CF235B28BD0000C7A7 /* Landmark.swift in Sources */,
 				B9619A7623672FC000566520 /* ProfileSummary.swift in Sources */,
+				B9F95BF92369ECC100181BC8 /* PageControl.swift in Sources */,
 				B94E71502360B02200874878 /* HikeView.swift in Sources */,
 				B9BA4DE7235B6B24007D4335 /* UserData.swift in Sources */,
 				B9619A7A2367352400566520 /* ProfileEditor.swift in Sources */,
