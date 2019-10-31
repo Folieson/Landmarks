@@ -97,6 +97,7 @@
 		B9F95C92236B36D300181BC8 /* twinlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9F95C0A2369F01900181BC8 /* twinlake.jpg */; };
 		B9F95C93236B36D300181BC8 /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9F95C062369F01800181BC8 /* umbagog.jpg */; };
 		B9F95C95236B371900181BC8 /* WatchLandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F95C94236B371900181BC8 /* WatchLandmarkDetail.swift */; };
+		B9F95C97236B3EDD00181BC8 /* WatchMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F95C96236B3EDD00181BC8 /* WatchMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -230,6 +231,7 @@
 		B9F95C6D236B33FD00181BC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9F95C6E236B33FD00181BC8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		B9F95C94236B371900181BC8 /* WatchLandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLandmarkDetail.swift; sourceTree = "<group>"; };
+		B9F95C96236B3EDD00181BC8 /* WatchMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -468,6 +470,7 @@
 				B9F95C6E236B33FD00181BC8 /* PushNotificationPayload.apns */,
 				B9F95C6A236B33FD00181BC8 /* Preview Content */,
 				B9F95C94236B371900181BC8 /* WatchLandmarkDetail.swift */,
+				B9F95C96236B3EDD00181BC8 /* WatchMapView.swift */,
 			);
 			path = "WatchLandmarks Extension";
 			sourceTree = "<group>";
@@ -763,6 +766,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9F95C61236B33FB00181BC8 /* HostingController.swift in Sources */,
+				B9F95C97236B3EDD00181BC8 /* WatchMapView.swift in Sources */,
 				B9F95C80236B366900181BC8 /* Profile.swift in Sources */,
 				B9F95C5F236B33FB00181BC8 /* ContentView.swift in Sources */,
 				B9F95C65236B33FB00181BC8 /* NotificationController.swift in Sources */,
