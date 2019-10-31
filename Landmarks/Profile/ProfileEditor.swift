@@ -48,6 +48,7 @@ struct ProfileEditor: View {
                     selection: $profile.goalDate,
                     in: dateRange,
                     displayedComponents: .date)
+                    .labelsHidden()
             }
             .padding(.top)
         }
